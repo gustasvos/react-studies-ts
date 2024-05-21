@@ -1,5 +1,5 @@
 import "./App.css";
-import { Person } from "./components/Person";
+import { Country, Person } from "./components/Person";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
           age={21}
           isMarried={false}
           friends={["a", "b", "c"]}
+          country={Country.Brazil}
         />
       </div>
     </>
